@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Sekel Assignment</h1>
+  <Get_All_PostsVue/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Get_All_PostsVue from './components/Get_All_Posts.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Get_All_PostsVue,
   }
 }
 </script>
